@@ -2873,7 +2873,7 @@ static NSString *_customThemeColor = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"iSaveTool PRO";
+    self.title = @"iSaveTool";
     self.view.backgroundColor = [ISTheme primaryBackground];
     self.showApps = YES;
     self.favorites = [NSMutableArray array];
@@ -3819,7 +3819,7 @@ static NSString *_customThemeColor = nil;
 }
 
 - (void)showAbout {
-    NSString *message = @"iSaveTool PRO v1.118\n\n"
+    NSString *message = @"iSaveTool v1.118\n\n"
                        @"Jailbroken iOS devices save/plist management tool\n\n"
                        @"Features:\n"
                        @"• Plist Editor (XML/JSON/Tree)\n"
@@ -5485,7 +5485,7 @@ static NSString *_customThemeColor = nil;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [ISLogger setup];
-    [ISLogger log:@"iSaveTool PRO launched"];
+    [ISLogger log:@"iSaveTool launched"];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
