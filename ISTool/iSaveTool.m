@@ -8,7 +8,7 @@
 * VERSION 1.118
 * SORRY FOR BETA HAVE BUGS ;(
 * MAKE NEED CLANG AND iPHONEOS SDK 13.0=> THEN RUN "script.sh"
-* YOU HAVE A ROOT CREATE THIS FOLDER "/mnt/data/save"
+* IF YOU HAVE A ROOT CREATE THIS FOLDER "/mnt/data/save"
 ***********************************
 */
 
